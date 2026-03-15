@@ -2,6 +2,7 @@
 <html>
 <head>
 <title>Fancy Fan House</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
 body{
 font-family: Arial;
@@ -12,12 +13,12 @@ background:#f5f5f5;
 header{
 background:black;
 color:white;
-padding:20px;
+padding:25px;
 text-align:center;
 }
 
 nav{
-background:#444;
+background:#333;
 padding:10px;
 text-align:center;
 }
@@ -30,32 +31,33 @@ font-size:18px;
 }
 
 .hero{
+text-align:center;
 padding:60px;
-text-align:center;
-background:#e8e8e8;
-}
-
-.products{
-display:flex;
-justify-content:center;
-gap:20px;
-padding:40px;
-}
-
-.card{
-background:white;
-padding:20px;
-width:200px;
-box-shadow:0 0 10px rgba(0,0,0,0.2);
-text-align:center;
+background:#eaeaea;
 }
 
 button{
 background:black;
 color:white;
+padding:12px 18px;
 border:none;
-padding:10px 15px;
 cursor:pointer;
+}
+
+.products{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+padding:40px;
+gap:20px;
+}
+
+.card{
+background:white;
+width:220px;
+padding:20px;
+box-shadow:0 0 10px rgba(0,0,0,0.2);
+text-align:center;
 }
 
 footer{
@@ -71,45 +73,49 @@ padding:15px;
 
 <header>
 <h1>Fancy Fan House</h1>
-<p>Best Quality Fans in Town</p>
+<p>All Branded Ceiling Fans Available</p>
 </header>
 
 <nav>
 <a href="#">Home</a>
 <a href="#">Products</a>
-<a href="#">About</a>
 <a href="#">Contact</a>
 </nav>
 
 <div class="hero">
-<h2>Welcome to Fancy Fan House</h2>
-<p>High Quality Ceiling Fans & Electronics</p>
+<h2>Best Fan Shop in Karachi</h2>
+<p>Price Range: 6500 – 25000 PKR</p>
+
+<a href="https://wa.me/923126619202">
 <button>Order on WhatsApp</button>
+</a>
+
 </div>
 
 <div class="products">
 
 <div class="card">
-<h3>Ceiling Fan</h3>
-<p>Energy Saving Fan</p>
+<h3>Luxury Ceiling Fan</h3>
+<p>Price: 15000 PKR</p>
 <button>View</button>
 </div>
 
 <div class="card">
-<h3>Luxury Fan</h3>
-<p>Modern Design</p>
+<h3>Energy Saver Fan</h3>
+<p>Price: 9500 PKR</p>
 <button>View</button>
 </div>
 
 <div class="card">
-<h3>Wall Fan</h3>
-<p>Strong Air</p>
+<h3>Premium Fan</h3>
+<p>Price: 22000 PKR</p>
 <button>View</button>
 </div>
 
 </div>
 
 <footer>
+<p>Contact: 03126619202</p>
 <p>© 2026 Fancy Fan House</p>
 </footer>
 
